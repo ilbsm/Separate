@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83d53659-532b-4f3d-b5fb-fee659adf21c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/reformat.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PF01699_2_A.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PF01699_2_B.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/separate.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,29 +13,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/separate2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/separate1.py">
+        <entry file="file://$PROJECT_DIR$/reformat.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PF01699_full_1_A.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" selection-start-column="1" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PF01699_full_2_A.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            <state relative-caret-position="208">
+              <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,12 +65,13 @@
       <list>
         <option value="$PROJECT_DIR$/separate.py" />
         <option value="$PROJECT_DIR$/separate1.py" />
+        <option value="$PROJECT_DIR$/reformat.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="width" value="632" />
+    <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectView">
@@ -83,6 +79,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -90,18 +87,22 @@
               <item name="Praktyki" type="b2602c69:ProjectViewProjectNode" />
               <item name="Praktyki" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Praktyki" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Praktyki" type="462c0819:PsiDirectoryNode" />
+              <item name="Pliki_z_separate" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/PF01699_full_2_B.txt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Pliki_z_separate/PF01699_full_1_A_f.txt" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/PF01699_full_2_B.txt" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/Pliki_z_separate/PF01699_full_1_A_f.txt" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -120,7 +121,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.reformat">
+    <configuration name="reformat" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Praktyki" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reformat.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="separate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Praktyki" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,6 +166,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.reformat" />
         <item itemvalue="Python.separate" />
       </list>
     </recent_temporary>
@@ -163,6 +186,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -170,7 +194,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.290469" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39939487" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -203,16 +227,8 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PF01699_2_B.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PF01699_2_A.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/PF01699_2_B.txt" />
+    <entry file="file://$PROJECT_DIR$/PF01699_2_A.txt" />
     <entry file="file://$PROJECT_DIR$/PF01699_full.txt">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state relative-caret-position="349">
@@ -220,106 +236,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/separate.py">
+    <entry file="file://$PROJECT_DIR$/separate.py" />
+    <entry file="file://$PROJECT_DIR$/PF01699_full_8_B.txt" />
+    <entry file="file://$PROJECT_DIR$/PF01699_full_8_C.txt" />
+    <entry file="file://$PROJECT_DIR$/PF01699_full_8_D.txt" />
+    <entry file="file://$PROJECT_DIR$/PF01699_full_8_E.txt" />
+    <entry file="file://$PROJECT_DIR$/PF01699_full_8_F.txt" />
+    <entry file="file://$PROJECT_DIR$/PF01699_full_8_G.txt" />
+    <entry file="file://$PROJECT_DIR$/PF01699_full_8_H.txt" />
+    <entry file="file://$PROJECT_DIR$/PF01699_full_5_D.txt" />
+    <entry file="file://$PROJECT_DIR$/PF01699_full_4_C.txt" />
+    <entry file="file://$PROJECT_DIR$/PF01699_full_3_B.txt" />
+    <entry file="file://$PROJECT_DIR$/PF01699_full_8_A.txt" />
+    <entry file="file://$PROJECT_DIR$/PF01699_full_6_F.txt" />
+    <entry file="file://$PROJECT_DIR$/PF01699_full_2_B.txt" />
+    <entry file="file://$PROJECT_DIR$/PF01699_full_4_D.txt" />
+    <entry file="file://$PROJECT_DIR$/PF01699_full_7_A.txt" />
+    <entry file="file://$PROJECT_DIR$/PF01699_full_7_B.txt" />
+    <entry file="file://$PROJECT_DIR$/PF01699_full_7_C.txt" />
+    <entry file="file://$PROJECT_DIR$/PF01699_full_7_D.txt" />
+    <entry file="file://$PROJECT_DIR$/PF01699_full_7_F.txt" />
+    <entry file="file://$PROJECT_DIR$/PF01699_full_7_E.txt" />
+    <entry file="file://$PROJECT_DIR$/PF01699_full_1_A.txt" />
+    <entry file="file://$PROJECT_DIR$/PF01699_full_2_A.txt" />
+    <entry file="file://$PROJECT_DIR$/separate1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="65" column="34" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
+        <state relative-caret-position="376">
+          <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PF01699_full_8_B.txt">
+    <entry file="file://$PROJECT_DIR$/Pliki_z_separate/PF01699_full_5_A.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/PF01699_full_8_C.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PF01699_full_8_D.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PF01699_full_8_E.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PF01699_full_8_F.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PF01699_full_8_G.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PF01699_full_8_H.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PF01699_full_5_D.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PF01699_full_4_C.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PF01699_full_3_B.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PF01699_full_8_A.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PF01699_full_6_F.txt">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="124">
+          <caret line="1146" selection-start-line="1146" selection-end-line="1146" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PF01699_full_2_B.txt">
+    <entry file="file://$PROJECT_DIR$/separate2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="100" column="24" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
+        <state relative-caret-position="588">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PF01699_full_4_D.txt">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="124">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PF01699_full_7_A.txt">
+    <entry file="file://$PROJECT_DIR$/Pliki_z_separate/PF01699_full_5_B.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/PF01699_full_7_B.txt">
+    <entry file="file://$PROJECT_DIR$/Pliki_z_separate/PF01699_full_5_B_f.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/PF01699_full_7_C.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PF01699_full_7_D.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PF01699_full_7_F.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PF01699_full_7_E.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PF01699_full_1_A.txt">
+    <entry file="file://$PROJECT_DIR$/Pliki_z_separate/PF01699_full_1_A.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="17" />
+        <state relative-caret-position="252">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PF01699_full_2_A.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Pliki_z_separate/PF01699_full_1_A_f_f.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/separate1.py">
+    <entry file="file://$PROJECT_DIR$/Pliki_z_separate/PF01699_full_1_A_f_f_f.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pliki_z_separate/PF01699_full_5_A_f.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pliki_z_separate/PF01699_full_4_D_f.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pliki_z_separate/PF01699_full_1_A_f.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pliki_z_separate/PF01699_full_2_A_f.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reformat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="208">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
