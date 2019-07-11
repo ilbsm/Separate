@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83d53659-532b-4f3d-b5fb-fee659adf21c" name="Default Changelist" comment="Groups already seperated" />
+    <list default="true" id="83d53659-532b-4f3d-b5fb-fee659adf21c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/filter_too_long_short.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,16 +25,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/groups_separate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="216">
+              <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="51" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/filter_too_long_short.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group1_2_A_filter.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group1_2_B_filter.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -79,6 +104,7 @@
         <option value="$PROJECT_DIR$/reformat.py" />
         <option value="$PROJECT_DIR$/from_full_seq.py" />
         <option value="$PROJECT_DIR$/groups_separate.py" />
+        <option value="$PROJECT_DIR$/filter_too_long_short.py" />
       </list>
     </option>
   </component>
@@ -118,9 +144,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/PF01699_raw.fasta" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group2_2_A_filter.txt" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/PF01699_raw.fasta" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group2_2_A_filter.txt" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -245,13 +271,27 @@
       <option name="project" value="LOCAL" />
       <updated>1562844266291</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Groups already seperated">
+      <created>1562851902533</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1562851902533</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Groups already seperated">
+      <created>1562852015252</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1562852015252</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="16" width="1366" height="699" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34214503" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34214503" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -261,8 +301,8 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.2584814" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49925596" weight="0.32894737" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.2584814" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49925596" visible="true" weight="0.3279483" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50074404" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -334,7 +374,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Extract from full_seq raw" />
     <MESSAGE value="Seperate groups to chain A/B" />
-    <option name="LAST_COMMIT_MESSAGE" value="Seperate groups to chain A/B" />
+    <MESSAGE value="Groups already seperated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Groups already seperated" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -346,9 +387,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PF01699_full_8_B.txt" />
-    <entry file="file://$PROJECT_DIR$/PF01699_full_8_C.txt" />
-    <entry file="file://$PROJECT_DIR$/PF01699_full_8_D.txt" />
     <entry file="file://$PROJECT_DIR$/PF01699_full_8_E.txt" />
     <entry file="file://$PROJECT_DIR$/PF01699_full_8_F.txt" />
     <entry file="file://$PROJECT_DIR$/PF01699_full_8_G.txt" />
@@ -528,13 +566,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/groups_separate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="216">
+          <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="51" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filter_too_long_short.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group1_2_A_filter.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group1_2_B_filter.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
