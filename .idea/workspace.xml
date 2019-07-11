@@ -2,7 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83d53659-532b-4f3d-b5fb-fee659adf21c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/filter_too_long_short.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group1_2_A_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group1_2_A_filter_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group1_2_B_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group1_2_B_filter_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group2_2_A_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group2_2_A_filter_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group2_2_B_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group2_2_B_filter_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group3_2_A_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group3_2_A_filter_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group3_2_B_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group3_2_B_filter_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group4_2_A_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group4_2_A_filter_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group4_2_B_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group4_2_B_filter_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group5_2_A_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group5_2_A_filter_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group5_2_B_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group5_2_B_filter_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group6_2_A_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group6_2_A_filter_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group6_2_B_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group6_2_B_filter_f.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,6 +45,25 @@
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/reformat.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group1_2_A_filter_f.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2268" />
           </provider>
         </entry>
       </file>
@@ -54,7 +96,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group1_2_B_filter.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -101,10 +143,10 @@
       <list>
         <option value="$PROJECT_DIR$/separate.py" />
         <option value="$PROJECT_DIR$/separate1.py" />
-        <option value="$PROJECT_DIR$/reformat.py" />
         <option value="$PROJECT_DIR$/from_full_seq.py" />
         <option value="$PROJECT_DIR$/groups_separate.py" />
         <option value="$PROJECT_DIR$/filter_too_long_short.py" />
+        <option value="$PROJECT_DIR$/reformat.py" />
       </list>
     </option>
   </component>
@@ -128,11 +170,6 @@
             <path>
               <item name="Separate" type="b2602c69:ProjectViewProjectNode" />
               <item name="Separate" type="462c0819:PsiDirectoryNode" />
-              <item name="groups" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Separate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Separate" type="462c0819:PsiDirectoryNode" />
               <item name="groups_separated" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -145,7 +182,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group2_2_A_filter.txt" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group2_2_A_filter.txt" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -285,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562852015252</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Filter">
+      <created>1562854362369</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1562854362369</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -375,7 +419,8 @@
     <MESSAGE value="Extract from full_seq raw" />
     <MESSAGE value="Seperate groups to chain A/B" />
     <MESSAGE value="Groups already seperated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Groups already seperated" />
+    <MESSAGE value="Filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Filter" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -387,7 +432,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PF01699_full_8_E.txt" />
     <entry file="file://$PROJECT_DIR$/PF01699_full_8_F.txt" />
     <entry file="file://$PROJECT_DIR$/PF01699_full_8_G.txt" />
     <entry file="file://$PROJECT_DIR$/PF01699_full_8_H.txt" />
@@ -453,16 +497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reformat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -589,6 +623,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group1_2_B_filter.txt">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/groups_separated/CLANS_run_PF01699_raw_2_1107_group1_2_A_filter_f.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2268" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reformat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
