@@ -4,7 +4,7 @@ import os
 parser = argparse.ArgumentParser()
 
 parser.add_argument("-G", help='Folder name with groups files', default='groups')
-parser.add_argument("-S", help='Folder name with separated files', default='Pliki_z_separate')
+parser.add_argument("-S", help='Folder name with separated files', default='Files_from_separate')
 parser.add_argument("-N", help='Number of counts', default='2')
 
 args = parser.parse_args()

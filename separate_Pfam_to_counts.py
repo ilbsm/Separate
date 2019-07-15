@@ -1,8 +1,11 @@
-import numpy as np
-from matplotlib import pyplot as plt
 import random
 import argparse
-import time
+no_plot = False
+try:
+    import numpy as np
+    from matplotlib import pyplot as plt
+except ModuleNotFoundError:
+    no_plot = True
 
 
 '''
@@ -13,7 +16,6 @@ IMPORTANT:
 '''
 
 
-start = time.time()
 # -------------------------------------------------------------------
 parser = argparse.ArgumentParser()
 
@@ -73,15 +75,19 @@ if not args.P:
 
 # -----------------------------------------------------------------------
 if args.P:
-    x_ticks = np.arange(1, maxi, 400)
-    starts_y_axis = [random.random() for i in range(len(values_start))]
-    ends_y_axis = [random.random() + 2 for i in range(len(values_end))]
-    plt.figure(figsize=(12, 3))
-    plt.scatter(values_start, starts_y_axis, s=0.2)
-    plt.scatter(values_end, ends_y_axis, s=0.2)
-    plt.yticks([0.5, 2.5], ['start', 'end'])
-    plt.xticks(x_ticks)
-    plt.show()
+    if no_plot:
+        print('No module Matplotlib, see Readme for more info!')
+        exit()
+    else:
+        x_ticks = np.arange(1, maxi, 400)
+        starts_y_axis = [random.random() for i in range(len(values_start))]
+        ends_y_axis = [random.random() + 2 for i in range(len(values_end))]
+        plt.figure(figsize=(12, 3))
+        plt.scatter(values_start, starts_y_axis, s=0.2)
+        plt.scatter(values_end, ends_y_axis, s=0.2)
+        plt.yticks([0.5, 2.5], ['start', 'end'])
+        plt.xticks(x_ticks)
+        plt.show()
 
 # -----------------------------------------------------------------------
 if not args.P:
@@ -108,11 +114,9 @@ if not args.P:
                 A_part.write(f'{summary[i][0][3]}\n')
                 B_part.write(f'>{i}/{summary[i][1][0]}-{summary[i][1][1]}\n')
                 B_part.write(f'{summary[i][1][3]}\n')
-print(time.time() - start)
 
 
 #
-# start = time.time()
 # # -------------------------------------------------------------------
 # parser = argparse.ArgumentParser()
 #
@@ -207,6 +211,5 @@ print(time.time() - start)
 #                 B_part.write(f'>{i}/{summary[i][1][0]}-{summary[i][1][1]}\n')
 #                 B_part.write(f'{summary[i][1][3]}\n')
 #
-# print(time.time() - start)
 #
 
