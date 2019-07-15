@@ -1,6 +1,6 @@
 # Separate
 
-## separate_Pfam_to_counts_new.py
+## separate_Pfam_to_counts.py
 
 Input: File with repeats downloaded from Pfam database. 
 * **IMPORTANT:**
