@@ -1,6 +1,17 @@
 # Separate
 
-## separate_Pfam_to_counts_new.py
+If original scripts (in master folder) will not work, try to copy paste scripts from alternative_version folder to master and use them instead. 
+
+## Dependencies
+Those scripts need Python3 and are using those libraries (they should be built-in):
+* argparse
+* os
+* numpy (not necessary - used in flag -P in separate_Pfam_to_counts.py)
+* matplotlib (not necessary - used in flag -P in separate_Pfam_to_counts.py)
+
+However for full functionality you will need to install [CLANS](https://www.eb.tuebingen.mpg.de/protein-evolution/software/clans/)
+
+## separate_Pfam_to_counts.py
 
 Input: File with repeats downloaded from Pfam database. 
 * **IMPORTANT:**
@@ -46,7 +57,7 @@ Seperate CLANS groups files to counts.
 Flag | Description | Default
 ---- | ---- | ----
 -G | Folder name with groups files | groups
--S | Folder name with separated files | Pliki_z_separate
+-S | Folder name with separated files | Files_from_separate
 -N | Number of counts | 2
 
 
