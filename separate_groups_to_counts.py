@@ -1,6 +1,12 @@
 import argparse
 import os
 
+
+'''
+Seperate CLANS groups files to counts.
+'''
+
+
 parser = argparse.ArgumentParser()
 
 parser.add_argument("-G", help='Folder name with groups files', default='groups')
