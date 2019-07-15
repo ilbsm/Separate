@@ -46,7 +46,7 @@ Seperate CLANS groups files to counts.
 Flag | Description | Default
 ---- | ---- | ----
 -G | Folder name with groups files | groups
--S | Folder name with separated files | Pliki_z_separate
+-S | Folder name with separated files | Files_from_separate
 -N | Number of counts | 2
 
 
