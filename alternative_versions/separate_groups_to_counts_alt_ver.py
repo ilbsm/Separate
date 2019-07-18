@@ -1,10 +1,16 @@
 import argparse
 import os
 
+
+'''
+Seperate CLANS groups files to counts.
+'''
+
+
 parser = argparse.ArgumentParser()
 
-parser.add_argument("-G", help='Folder name with groups files', default='groups')
-parser.add_argument("-S", help='Folder name with separated files', default='Files_from_separate')
+parser.add_argument("-G", help='Folder name with groups files', default='groups_from_CLANS')
+parser.add_argument("-S", help='Folder name with separated files', default='files_from_separate_Pfam_to_counts')
 parser.add_argument("-N", help='Number of counts', default='2')
 
 args = parser.parse_args()
@@ -54,7 +60,7 @@ for i0 in range(len(correct_list_with_separate)):
     for i in range(len(lista_plikow)):
         num_lines = sum(1 for line in open('%s/%s' % (args.G, lista_plikow[i])))
         with open(f"{args.G}/{lista_plikow[i]}") as nazwa_pliku:
-            zapis = open('%s_separated/%s_%s_%s.txt' % (args.G, lista_plikow[i].split(".")[0], args.N, chr(65 + i0)), 'w')
+            zapis = open('files_from_separate_groups_to_counts/%s_%s_%s.txt' % (lista_plikow[i].split(".")[0], args.N, chr(65 + i0)), 'w')
             for i1 in range(num_lines):
                 linia_pliku = nazwa_pliku.readline().rstrip()
                 if '>' in linia_pliku:
@@ -62,6 +68,6 @@ for i0 in range(len(correct_list_with_separate)):
                         zapis.write(f"{linia_pliku}/{summary[linia_pliku.lstrip('>')][0][0]}-{summary[linia_pliku.lstrip('>')][0][1]}\n")
                         zapis.write(f"{summary[linia_pliku.lstrip('>')][0][3]}\n")
                     except KeyError:
-                        print('Warning: not found!' % linia_pliku)
+                        print('Warning: %s not found!' % linia_pliku)
                         continue
             zapis.close()

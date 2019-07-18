@@ -18,7 +18,7 @@ args = parser.parse_args()
 
 def Iteration(filename, new_character):
     num_lines = sum(1 for line in open('%s.txt' % filename))
-    nowy = open('%s_f.txt' % filename, 'w')
+    nowy = open(f'%s/format/%s_f.txt' % (filename.split("/")[0], filename.split("/")[-1]), 'w')
     with open('%s.txt' % filename) as filename:
         for i in range(num_lines):
             linia_pliku = filename.readline()
@@ -44,7 +44,8 @@ if args.R:
     listaplikow = os.listdir(args.R)
     for i in listaplikow:
         if '_f.txt' not in i:
-            Iteration('%s/%s' % (args.R, i.split(".")[0]), new_character)
+            if i != 'format':
+                Iteration('%s/%s' % (args.R, i.split(".")[0]), new_character)
 elif args.F:
     filename = args.F
     if '.' in filename:

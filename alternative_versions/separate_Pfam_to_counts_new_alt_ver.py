@@ -1,8 +1,12 @@
-import numpy as np
-from matplotlib import pyplot as plt
 import random
 import argparse
-import time
+import os
+no_plot = False
+try:
+    import numpy as np
+    from matplotlib import pyplot as plt
+except ModuleNotFoundError:
+    no_plot = True
 
 
 '''
@@ -13,7 +17,6 @@ IMPORTANT:
 '''
 
 
-start = time.time()
 # -------------------------------------------------------------------
 parser = argparse.ArgumentParser()
 
@@ -73,15 +76,19 @@ if not args.P:
 
 # -----------------------------------------------------------------------
 if args.P:
-    x_ticks = np.arange(1, maxi, 400)
-    starts_y_axis = [random.random() for i in range(len(values_start))]
-    ends_y_axis = [random.random() + 2 for i in range(len(values_end))]
-    plt.figure(figsize=(12, 3))
-    plt.scatter(values_start, starts_y_axis, s=0.2)
-    plt.scatter(values_end, ends_y_axis, s=0.2)
-    plt.yticks([0.5, 2.5], ['start', 'end'])
-    plt.xticks(x_ticks)
-    plt.show()
+    if no_plot:
+        print('No module Matplotlib, see Readme for more info!')
+        exit()
+    else:
+        x_ticks = np.arange(1, maxi, 400)
+        starts_y_axis = [random.random() for i in range(len(values_start))]
+        ends_y_axis = [random.random() + 2 for i in range(len(values_end))]
+        plt.figure(figsize=(12, 3))
+        plt.scatter(values_start, starts_y_axis, s=0.2)
+        plt.scatter(values_end, ends_y_axis, s=0.2)
+        plt.yticks([0.5, 2.5], ['start', 'end'])
+        plt.xticks(x_ticks)
+        plt.show()
 
 # -----------------------------------------------------------------------
 if not args.P:
@@ -90,8 +97,12 @@ if not args.P:
         for i in range(max_counts+1):
             if i != 0:
                 list_of_files = ['%s_%s_%s.txt' % (filename, i, chr(65 + i1)) for i1 in range(i)]
-                # for i1 in list_of_files:
-                opened_files = [open(i2, 'w') for i2 in list_of_files]
+                list_of_files2 = []
+                for i2 in list_of_files:
+                    if '/' in i2:
+                        list_of_files2.append(i2.split('/')[-1])
+                        list_of_files = list_of_files2
+                opened_files = [open('files_from_separate_Pfam_to_counts/%s' % i2, 'w') for i2 in list_of_files]
                 for i2 in summary:
                     if len(summary[i2]) == i:
                         for i3 in range(i):
@@ -100,19 +111,22 @@ if not args.P:
                 for i4 in opened_files:
                     i4.close()
     else:
-        A_part = open('%s_2_A.txt' % filename, 'w')
-        B_part = open('%s_2_B.txt' % filename, 'w')
+        if '/' in filename:
+            filename = filename.split('/')[-1]
+        A_part = open('files_from_separate_Pfam_to_counts/%s_2_A.txt' % filename, 'w')
+        B_part = open('files_from_separate_Pfam_to_counts/%s_2_B.txt' % filename, 'w')
         for i in summary:
             if len(summary[i]) == 2:
                 A_part.write('>%s/%s-%s\n' % (i, summary[i][0][0], summary[i][0][1]))
                 A_part.write('%s\n' % summary[i][0][3])
                 B_part.write('>%s/%s-%s\n' % (i, summary[i][1][0], summary[i][1][1]))
                 B_part.write('%s\n' % summary[i][1][3])
-print(time.time() - start)
 
 
 #
-# start = time.time()
+# '''
+# OLD VERSION
+# '''
 # # -------------------------------------------------------------------
 # parser = argparse.ArgumentParser()
 #

@@ -77,4 +77,6 @@ for i in os.listdir('files_from_advanced_filter_by_value'):
         os.system(f'python3 formatting.py -F files_from_advanced_filter_by_value/{i}')
 print('Done!')
 
+# --------------------------------------------------------------------------------------------------------
+
 print('Finished!')
