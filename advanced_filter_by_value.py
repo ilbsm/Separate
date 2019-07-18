@@ -35,7 +35,9 @@ def iterate(filename, margin, acceptable):
         lista_wartosci[i] = sum(lista_wartosci[i]) / len(lista_wartosci[i])
 
     with open('%s' % filename) as file_line:
-        zapis = open('%s_advfil.txt' % filename.split('.')[0], 'w')
+        if '/' in filename:
+            filename = filename.split('/')[-1]
+        zapis = open('files_from_advanced_filter_by_value/%s_advfil.txt' % filename.split('.')[0], 'w')
         if args.O:
             print('Filename: %s' % filename)
             print('%4s %5s %30s %s' % ('err', 'line', 'name', 'seq'))

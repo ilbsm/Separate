@@ -9,8 +9,8 @@ Seperate CLANS groups files to counts.
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument("-G", help='Folder name with groups files', default='groups')
-parser.add_argument("-S", help='Folder name with separated files', default='Files_from_separate')
+parser.add_argument("-G", help='Folder name with groups files', default='groups_from_CLANS')
+parser.add_argument("-S", help='Folder name with separated files', default='files_from_separate_Pfam_to_counts')
 parser.add_argument("-N", help='Number of counts', default='2')
 
 args = parser.parse_args()
@@ -60,7 +60,7 @@ for i0 in range(len(correct_list_with_separate)):
     for i in range(len(lista_plikow)):
         num_lines = sum(1 for line in open(f'{args.G}/{lista_plikow[i]}'))
         with open(f"{args.G}/{lista_plikow[i]}") as nazwa_pliku:
-            zapis = open(f'{args.G}_separated/{lista_plikow[i].split(".")[0]}_{args.N}_{chr(65 + i0)}.txt', 'w')
+            zapis = open(f'files_from_separate_groups_to_counts/{lista_plikow[i].split(".")[0]}_{args.N}_{chr(65 + i0)}.txt', 'w')
             for i1 in range(num_lines):
                 linia_pliku = nazwa_pliku.readline().rstrip()
                 if '>' in linia_pliku:

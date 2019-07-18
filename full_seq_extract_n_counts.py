@@ -60,7 +60,9 @@ if '.' in filename_f:
     new_name = filename_f.split('.')[0]
 else:
     new_name = filename_f
-zapis = open(f'{new_name}_{str(args.N)}.txt', 'w')
+if '/' in new_name:
+    new_name = new_name.split('/')[-1]
+zapis = open(f'files_from_full_seq_extract_n_counts/{new_name}_{str(args.N)}.txt', 'w')
 with open(f'{args.S}') as nazwa_pliku:
     for i in range(num_lines):
         linia_pliku = nazwa_pliku.readline()

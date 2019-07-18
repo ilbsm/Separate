@@ -1,5 +1,6 @@
 import random
 import argparse
+import os
 no_plot = False
 try:
     import numpy as np
@@ -96,8 +97,12 @@ if not args.P:
         for i in range(max_counts+1):
             if i != 0:
                 list_of_files = [f'{filename}_{i}_{chr(65 + i1)}.txt' for i1 in range(i)]
-                # for i1 in list_of_files:
-                opened_files = [open(i2, 'w') for i2 in list_of_files]
+                list_of_files2 = []
+                for i2 in list_of_files:
+                    if '/' in i2:
+                        list_of_files2.append(i2.split('/')[-1])
+                        list_of_files = list_of_files2
+                opened_files = [open(f'files_from_separate_Pfam_to_counts/{i2}', 'w') for i2 in list_of_files]
                 for i2 in summary:
                     if len(summary[i2]) == i:
                         for i3 in range(i):
@@ -106,8 +111,10 @@ if not args.P:
                 for i4 in opened_files:
                     i4.close()
     else:
-        A_part = open(f'{filename}_2_A.txt', 'w')
-        B_part = open(f'{filename}_2_B.txt', 'w')
+        if '/' in filename:
+            filename = filename.split('/')[-1]
+        A_part = open(f'files_from_separate_Pfam_to_counts/{filename}_2_A.txt', 'w')
+        B_part = open(f'files_from_separate_Pfam_to_counts/{filename}_2_B.txt', 'w')
         for i in summary:
             if len(summary[i]) == 2:
                 A_part.write(f'>{i}/{summary[i][0][0]}-{summary[i][0][1]}\n')
@@ -117,6 +124,9 @@ if not args.P:
 
 
 #
+# '''
+# OLD VERSION
+# '''
 # # -------------------------------------------------------------------
 # parser = argparse.ArgumentParser()
 #
