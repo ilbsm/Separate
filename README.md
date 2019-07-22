@@ -115,7 +115,7 @@ or for recursive search:
 
 ## advanced_filter_by_value.py
 
-Description can be found in other file (not done yet)
+Example can be found below
 
 Flag | Description                                       | Default
 ---- | ------------------------------------------------- | ----
@@ -126,8 +126,31 @@ Flag | Description                                       | Default
 -O   | Detailed output                                   | False
 
 Example usage:  
-`python3 advanced_filter_by_value.py -F files_from_separate_groups_to_counts/put-here-file-name'` 
+`python3 advanced_filter_by_value.py -F files_from_separate_groups_to_counts/put-here-file-name'`  
 for recursive search:  
 `python3 advanced_filter_by_value.py -R files_from_separate_groups_to_counts'`  
 to change parameters:  
 `python3 advanced_filter_by_value.py -R files_from_separate_groups_to_counts -M 0.5 -A 20'` 
+
+
+## About advanced_filter_by_value.py
+
+Example for:  
+margin = 0.4  
+error = 1
+
+Sequence    | col 1 | col 2 | col 3 | col 4 | col 5 | Comment
+------------|-------|-------|-------|-------|-------|-----------------------------
+S1          |   -   |   -   |   -   |   -   |   A   |
+S2          |   -   |   -   |   -   |   A   |   A   |
+S3          |   -   |   -   |   A   |   A   |   A   |
+S4          |   -   |   A   |   A   |   A   |   A   |
+S5          |   A   |   A   |   A   |   A   |   A   |
+Value       |  0.2  |  0.4  |  0.6  |  0.8  |   1   |
+Compare S1  |  OK   |  OK   |   X   |   X   |  OK   | Error: 2 - Sequence deleted
+Compare S2  |  OK   |  OK   |   X   |  OK   |  OK   | Error: 1 - Sequence is OK
+Compare S3  |  OK   |  OK   |  OK   |  OK   |  OK   | Error: 0 - Sequence is OK
+Compare S4  |  OK   |   X   |  OK   |  OK   |  OK   | Error: 1 - Sequence is OK
+Compare S5  |   X   |   X   |  OK   |  OK   |  OK   | Error: 2 - Sequence deleted
+
+So too long and too short sequence are deleted. Notice, that even if columns are in different order result will be the same.
