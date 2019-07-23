@@ -10,7 +10,9 @@ Those scripts need [Python3](https://www.python.org/) and are using those librar
 * argparse
 * os
 * numpy (not necessary - used in flag -P in separate_Pfam_to_counts.py ($ sudo pip3 install numpy))
-* matplotlib (not necessary - used in flag -P in separate_Pfam_to_counts.py ($ sudo pip3 install matplotlib))
+* matplotlib (not necessary - used in flag -P in separate_Pfam_to_counts.py ($ sudo pip3 install matplotlib))  
+
+To install them quickly you can just type: $ pip3 install -r requirements.txt   
 
 However for full functionality you will need to install [CLANS](https://www.eb.tuebingen.mpg.de/protein-evolution/software/clans/)
 
