@@ -37,7 +37,7 @@ def iterate(filename, margin, acceptable):
     with open('%s' % filename) as file_line:
         if '/' in filename:
             filename = filename.split('/')[-1]
-        zapis = open('files_from_advanced_filter_by_value/%s_advfil.txt' % filename.split('.')[0], 'w')
+        zapis = open('files_from_advanced_filter_by_value/%s_advfil.fasta' % filename.split('.')[0], 'w')
         if args.O:
             print('Filename: %s' % filename)
             print('%4s %5s %30s %s' % ('err', 'line', 'name', 'seq'))

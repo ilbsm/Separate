@@ -2,85 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83d53659-532b-4f3d-b5fb-fee659adf21c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/advfil_hhm/CLANS_run_PF01699_raw_2_1107_group1_2_A_advfil.hhm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advfil_hhm/CLANS_run_PF01699_raw_2_1107_group1_2_B_advfil.hhm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advfil_hhm/CLANS_run_PF01699_raw_2_1107_group2_2_A_advfil.hhm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advfil_hhm/CLANS_run_PF01699_raw_2_1107_group2_2_B_advfil.hhm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advfil_hhm/CLANS_run_PF01699_raw_2_1107_group3_2_A_advfil.hhm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advfil_hhm/CLANS_run_PF01699_raw_2_1107_group3_2_B_advfil.hhm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advfil_hhm/CLANS_run_PF01699_raw_2_1107_group4_2_A_advfil.hhm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advfil_hhm/CLANS_run_PF01699_raw_2_1107_group4_2_B_advfil.hhm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advfil_hhm/CLANS_run_PF01699_raw_2_1107_group5_2_A_advfil.hhm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advfil_hhm/CLANS_run_PF01699_raw_2_1107_group5_2_B_advfil.hhm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advfil_hhm/CLANS_run_PF01699_raw_2_1107_group6_2_A_advfil.hhm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advfil_hhm/CLANS_run_PF01699_raw_2_1107_group6_2_B_advfil.hhm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advfil_hhm/all.hhms" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advfil_hhr/CLANS_run_PF01699_raw_2_1107_group1_2_A_advfil.hhr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advfil_hhr/CLANS_run_PF01699_raw_2_1107_group1_2_B_advfil.hhr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advfil_hhr/CLANS_run_PF01699_raw_2_1107_group2_2_A_advfil.hhr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advfil_hhr/CLANS_run_PF01699_raw_2_1107_group2_2_B_advfil.hhr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advfil_hhr/CLANS_run_PF01699_raw_2_1107_group3_2_A_advfil.hhr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advfil_hhr/CLANS_run_PF01699_raw_2_1107_group3_2_B_advfil.hhr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advfil_hhr/CLANS_run_PF01699_raw_2_1107_group4_2_A_advfil.hhr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advfil_hhr/CLANS_run_PF01699_raw_2_1107_group4_2_B_advfil.hhr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advfil_hhr/CLANS_run_PF01699_raw_2_1107_group5_2_A_advfil.hhr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advfil_hhr/CLANS_run_PF01699_raw_2_1107_group5_2_B_advfil.hhr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advfil_hhr/CLANS_run_PF01699_raw_2_1107_group6_2_A_advfil.hhr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advfil_hhr/CLANS_run_PF01699_raw_2_1107_group6_2_B_advfil.hhr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alternative_versions/to_CLANS_part_2_alt_ver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/to_CLANS_part_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txt_to_fasta.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all_in_one.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_in_one.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alternative_versions/all_in_one_alt_ver.py" beforeDir="false" afterPath="$PROJECT_DIR$/alternative_versions/all_in_one_alt_ver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alternative_versions/separate_Pfam_to_counts_new_alt_ver.py" beforeDir="false" afterPath="$PROJECT_DIR$/alternative_versions/separate_Pfam_to_counts_alt_ver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group1_2_A_advfil.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group1_2_A_advfil.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group1_2_B_advfil.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group1_2_B_advfil.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group2_2_A_advfil.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group2_2_A_advfil.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group2_2_B_advfil.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group2_2_B_advfil.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group3_2_A_advfil.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group3_2_A_advfil.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group3_2_B_advfil.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group3_2_B_advfil.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group4_2_A_advfil.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group4_2_A_advfil.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group4_2_B_advfil.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group4_2_B_advfil.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group5_2_A_advfil.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group5_2_A_advfil.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group5_2_B_advfil.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group5_2_B_advfil.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group6_2_A_advfil.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group6_2_A_advfil.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group6_2_B_advfil.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group6_2_B_advfil.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/format/CLANS_run_PF01699_raw_2_1107_group1_2_A_advfil_f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group1_2_A_advfil_f.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/format/CLANS_run_PF01699_raw_2_1107_group1_2_B_advfil_f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group1_2_B_advfil_f.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/format/CLANS_run_PF01699_raw_2_1107_group2_2_A_advfil_f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group2_2_A_advfil_f.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/format/CLANS_run_PF01699_raw_2_1107_group2_2_B_advfil_f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group2_2_B_advfil_f.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/format/CLANS_run_PF01699_raw_2_1107_group3_2_A_advfil_f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group3_2_A_advfil_f.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/format/CLANS_run_PF01699_raw_2_1107_group3_2_B_advfil_f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group3_2_B_advfil_f.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/format/CLANS_run_PF01699_raw_2_1107_group4_2_A_advfil_f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group4_2_A_advfil_f.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/format/CLANS_run_PF01699_raw_2_1107_group4_2_B_advfil_f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group4_2_B_advfil_f.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/format/CLANS_run_PF01699_raw_2_1107_group5_2_A_advfil_f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group5_2_A_advfil_f.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/format/CLANS_run_PF01699_raw_2_1107_group5_2_B_advfil_f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group5_2_B_advfil_f.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/format/CLANS_run_PF01699_raw_2_1107_group6_2_A_advfil_f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group6_2_A_advfil_f.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/format/CLANS_run_PF01699_raw_2_1107_group6_2_B_advfil_f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group6_2_B_advfil_f.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/CLANS_run_PF01699_raw_2_1107_group1_2_A.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group1_2_A.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/CLANS_run_PF01699_raw_2_1107_group1_2_B.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group1_2_B.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/CLANS_run_PF01699_raw_2_1107_group2_2_A.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group2_2_A.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/CLANS_run_PF01699_raw_2_1107_group2_2_B.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group2_2_B.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/CLANS_run_PF01699_raw_2_1107_group3_2_A.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group3_2_A.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/CLANS_run_PF01699_raw_2_1107_group3_2_B.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group3_2_B.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/CLANS_run_PF01699_raw_2_1107_group4_2_A.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group4_2_A.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/CLANS_run_PF01699_raw_2_1107_group4_2_B.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group4_2_B.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/CLANS_run_PF01699_raw_2_1107_group5_2_A.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group5_2_A.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/CLANS_run_PF01699_raw_2_1107_group5_2_B.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group5_2_B.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/CLANS_run_PF01699_raw_2_1107_group6_2_A.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group6_2_A.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/CLANS_run_PF01699_raw_2_1107_group6_2_B.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group6_2_B.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/format/CLANS_run_PF01699_raw_2_1107_group1_2_A_f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group1_2_A_f.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/format/CLANS_run_PF01699_raw_2_1107_group1_2_B_f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group1_2_B_f.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/format/CLANS_run_PF01699_raw_2_1107_group2_2_A_f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group2_2_A_f.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/format/CLANS_run_PF01699_raw_2_1107_group2_2_B_f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group2_2_B_f.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/format/CLANS_run_PF01699_raw_2_1107_group3_2_A_f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group3_2_A_f.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/format/CLANS_run_PF01699_raw_2_1107_group3_2_B_f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group3_2_B_f.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/format/CLANS_run_PF01699_raw_2_1107_group4_2_A_f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group4_2_A_f.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/format/CLANS_run_PF01699_raw_2_1107_group4_2_B_f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group4_2_B_f.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/format/CLANS_run_PF01699_raw_2_1107_group5_2_A_f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group5_2_A_f.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/format/CLANS_run_PF01699_raw_2_1107_group5_2_B_f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group5_2_B_f.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/format/CLANS_run_PF01699_raw_2_1107_group6_2_A_f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group6_2_A_f.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/format/CLANS_run_PF01699_raw_2_1107_group6_2_B_f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group6_2_B_f.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced_filter_by_value.py" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_filter_by_value.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alternative_versions/advanced_filter_by_value_alt_ver.py" beforeDir="false" afterPath="$PROJECT_DIR$/alternative_versions/advanced_filter_by_value_alt_ver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group1_2_A_advfil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group1_2_B_advfil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group2_2_A_advfil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group2_2_B_advfil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group3_2_A_advfil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group3_2_B_advfil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group4_2_A_advfil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group4_2_B_advfil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group5_2_A_advfil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group5_2_B_advfil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group6_2_A_advfil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group6_2_B_advfil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repeats_profiles_compare" beforeDir="false" afterPath="$PROJECT_DIR$/repeats_profiles_compare" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,24 +31,64 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/all_in_one.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/alternative_versions/all_in_one_alt_ver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="91" column="45" selection-start-line="91" selection-start-column="45" selection-end-line="91" selection-end-column="45" />
+            <state relative-caret-position="819">
+              <caret line="116" column="13" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repeats_profiles_compare">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/alternative_versions/advanced_filter_by_value_alt_ver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="39" column="73" selection-start-line="39" selection-start-column="73" selection-end-line="39" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/txt_to_fasta.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced_filter_by_value.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-210">
+              <caret line="39" column="73" selection-start-line="39" selection-start-column="73" selection-end-line="39" selection-end-column="73" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/formatting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alternative_versions/all_in_one_alt_ver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="91" column="45" selection-start-line="91" selection-start-column="45" selection-end-line="91" selection-end-column="45" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -146,6 +124,7 @@
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubDefaultAccount">
@@ -174,7 +153,6 @@
         <option value="$PROJECT_DIR$/separate_Pfam_to_counts.py" />
         <option value="$PROJECT_DIR$/full_seq_extract_n_counts.py" />
         <option value="$PROJECT_DIR$/separate_groups_to_counts.py" />
-        <option value="$PROJECT_DIR$/advanced_filter_by_value.py" />
         <option value="$PROJECT_DIR$/formatting.py" />
         <option value="$PROJECT_DIR$/alternative_versions/formatting_alt_ver.py" />
         <option value="$PROJECT_DIR$/alternative_versions/full_seq_extract_n_counts_alt_ver.py" />
@@ -182,8 +160,12 @@
         <option value="$PROJECT_DIR$/alternative_versions/separate_Pfam_to_counts_new_alt_ver.py" />
         <option value="$PROJECT_DIR$/repeats_profiles_compare3" />
         <option value="$PROJECT_DIR$/tab3clans_SDH.py" />
-        <option value="$PROJECT_DIR$/all_in_one.py" />
         <option value="$PROJECT_DIR$/alternative_versions/all_in_one_alt_ver.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/txt_to_fasta.py" />
+        <option value="$PROJECT_DIR$/advanced_filter_by_value.py" />
+        <option value="$PROJECT_DIR$/alternative_versions/advanced_filter_by_value_alt_ver.py" />
+        <option value="$PROJECT_DIR$/all_in_one.py" />
       </list>
     </option>
   </component>
@@ -197,6 +179,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,18 +192,28 @@
               <item name="Separate" type="462c0819:PsiDirectoryNode" />
               <item name="alternative_versions" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Separate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Separate" type="462c0819:PsiDirectoryNode" />
+              <item name="files_from_advanced_filter_by_value" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Separate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Separate" type="462c0819:PsiDirectoryNode" />
+              <item name="files_from_advanced_filter_by_value" type="462c0819:PsiDirectoryNode" />
+              <item name="format" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/all_in_one.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group1_2_A_advfil.txt" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/all_in_one.py" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group1_2_A_advfil.txt" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -476,13 +469,28 @@
       <option name="project" value="LOCAL" />
       <updated>1563459185347</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="All in one added">
+      <created>1563821675598</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1563821675598</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add requirements.txt">
+      <created>1563822689009</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1563822689009</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="688" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22885196" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23489426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -493,7 +501,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.2584814" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49925596" weight="0.31502423" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49925596" visible="true" weight="0.31502423" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50074404" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -575,7 +583,9 @@
     <MESSAGE value="Rearrange files and folders" />
     <MESSAGE value="Cleanup Part 1" />
     <MESSAGE value="Cleanup Part 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleanup Part 2" />
+    <MESSAGE value="All in one added" />
+    <MESSAGE value="add requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="add requirements.txt" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -616,14 +626,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/groups_alignment/CLANS_run_PF01699_raw_2_1107_group2_filter.txt" />
-    <entry file="file://$PROJECT_DIR$/alternative_versions/formatting_alt_ver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -685,30 +687,15 @@
     <entry file="file://$PROJECT_DIR$/tmpblasthsp.txt" />
     <entry file="file://$PROJECT_DIR$/tmp1.outfile" />
     <entry file="file://$PROJECT_DIR$/abc" />
-    <entry file="file://$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group1_2_A_advfil.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group1_2_A_advfil.txt" />
     <entry file="file://$PROJECT_DIR$/groups_alignment/CLANS_run_PF01699_raw_2_1107_group1_filter.txt" />
     <entry file="file://$PROJECT_DIR$/groups_alignment/CLANS_run_PF01699_raw_2_1107_group1.fasta" />
-    <entry file="file://$PROJECT_DIR$/advanced_filter_by_value.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-588">
-          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/full_seq_extract_n_counts.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
           <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alternative_versions/advanced_filter_by_value_alt_ver.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/other_files/PF01699_raw_2.txt">
       <provider selected="true" editor-type-id="text-editor" />
@@ -769,16 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/formatting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/other_files/Running_the_workflow">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -816,20 +793,64 @@
     <entry file="file://$PROJECT_DIR$/advfil_hhr/CLANS_run_PF01699_raw_2_1107_group1_2_A_advfil.hhr">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/all_in_one.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/repeats_profiles_compare">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/advanced_filter_by_value.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="39" column="73" selection-start-line="39" selection-start-column="73" selection-end-line="39" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/alternative_versions/all_in_one_alt_ver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
+        <state relative-caret-position="357">
           <caret line="91" column="45" selection-start-line="91" selection-start-column="45" selection-end-line="91" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alternative_versions/advanced_filter_by_value_alt_ver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="39" column="73" selection-start-line="39" selection-start-column="73" selection-end-line="39" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/txt_to_fasta.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/all_in_one.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="116" column="13" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formatting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
