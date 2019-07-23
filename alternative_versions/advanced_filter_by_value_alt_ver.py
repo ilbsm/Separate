@@ -13,7 +13,7 @@ args = parser.parse_args()
 
 
 def iterate(filename, margin, acceptable):
-    num_lines = sum(1 for line in open(f'%s' % filename))
+    num_lines = sum(1 for line in open('%s' % filename))
     with open('%s' % filename) as file_line:
         lista_wartosci = []
         for i in range(num_lines):

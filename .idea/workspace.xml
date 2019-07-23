@@ -2,23 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83d53659-532b-4f3d-b5fb-fee659adf21c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/txt_to_fasta.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced_filter_by_value.py" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_filter_by_value.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alternative_versions/advanced_filter_by_value_alt_ver.py" beforeDir="false" afterPath="$PROJECT_DIR$/alternative_versions/advanced_filter_by_value_alt_ver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group1_2_A_advfil.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group1_2_B_advfil.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group2_2_A_advfil.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group2_2_B_advfil.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group3_2_A_advfil.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group3_2_B_advfil.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group4_2_A_advfil.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group4_2_B_advfil.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group5_2_A_advfil.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group5_2_B_advfil.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group6_2_A_advfil.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/CLANS_run_PF01699_raw_2_1107_group6_2_B_advfil.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repeats_profiles_compare" beforeDir="false" afterPath="$PROJECT_DIR$/repeats_profiles_compare" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group1_2_A_advfil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group1_2_B_advfil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group2_2_A_advfil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group2_2_B_advfil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group3_2_A_advfil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group3_2_B_advfil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group4_2_A_advfil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group4_2_B_advfil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group5_2_A_advfil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group5_2_B_advfil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group6_2_A_advfil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group6_2_B_advfil.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,37 +28,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/all_in_one.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="819">
+            <state relative-caret-position="2415">
               <caret line="116" column="13" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/alternative_versions/advanced_filter_by_value_alt_ver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="39" column="73" selection-start-line="39" selection-start-column="73" selection-end-line="39" selection-end-column="73" />
+            <state relative-caret-position="292">
+              <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/txt_to_fasta.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/repeats_profiles_compare">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/advanced_filter_by_value.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-210">
+            <state relative-caret-position="714">
               <caret line="39" column="73" selection-start-line="39" selection-start-column="73" selection-end-line="39" selection-end-column="73" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -70,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/formatting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+            <state relative-caret-position="336">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -85,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alternative_versions/all_in_one_alt_ver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="1890">
               <caret line="91" column="45" selection-start-line="91" selection-start-column="45" selection-end-line="91" selection-end-column="45" />
             </state>
           </provider>
@@ -164,8 +154,8 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/txt_to_fasta.py" />
         <option value="$PROJECT_DIR$/advanced_filter_by_value.py" />
-        <option value="$PROJECT_DIR$/alternative_versions/advanced_filter_by_value_alt_ver.py" />
         <option value="$PROJECT_DIR$/all_in_one.py" />
+        <option value="$PROJECT_DIR$/alternative_versions/advanced_filter_by_value_alt_ver.py" />
       </list>
     </option>
   </component>
@@ -179,7 +169,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,11 +196,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group1_2_A_advfil.txt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group1_2_A_advfil.txt" />
   </component>
@@ -483,14 +473,21 @@
       <option name="project" value="LOCAL" />
       <updated>1563822689009</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="txt &gt; fasta">
+      <created>1563879329335</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1563879329335</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="688" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23489426" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23791541" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -501,7 +498,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.2584814" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49925596" visible="true" weight="0.31502423" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49925596" visible="true" weight="0.31502423" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50074404" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -585,7 +582,8 @@
     <MESSAGE value="Cleanup Part 2" />
     <MESSAGE value="All in one added" />
     <MESSAGE value="add requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="add requirements.txt" />
+    <MESSAGE value="txt &gt; fasta" />
+    <option name="LAST_COMMIT_MESSAGE" value="txt &gt; fasta" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -800,57 +798,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repeats_profiles_compare">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced_filter_by_value.py">
+    <entry file="file://$PROJECT_DIR$/txt_to_fasta.py" />
+    <entry file="file://$PROJECT_DIR$/all_in_one.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="39" column="73" selection-start-line="39" selection-start-column="73" selection-end-line="39" selection-end-column="73" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2415">
+          <caret line="116" column="13" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/repeats_profiles_compare">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/alternative_versions/all_in_one_alt_ver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="1890">
           <caret line="91" column="45" selection-start-line="91" selection-start-column="45" selection-end-line="91" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alternative_versions/advanced_filter_by_value_alt_ver.py">
+    <entry file="file://$PROJECT_DIR$/advanced_filter_by_value.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
+        <state relative-caret-position="714">
           <caret line="39" column="73" selection-start-line="39" selection-start-column="73" selection-end-line="39" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/txt_to_fasta.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/all_in_one.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="116" column="13" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/formatting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+        <state relative-caret-position="336">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alternative_versions/advanced_filter_by_value_alt_ver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
         </state>
       </provider>
     </entry>
