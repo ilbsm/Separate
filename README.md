@@ -9,6 +9,7 @@ Program tested on Linux Ubuntu 18.04.2. Should be also working on Windows howeve
 Those scripts need [Python3](https://www.python.org/) and are using those libraries (they should be built-in):
 * argparse
 * os
+* re
 * numpy (not necessary - used in flag -P in separate_Pfam_to_counts.py ($ sudo pip3 install numpy))
 * matplotlib (not necessary - used in flag -P in separate_Pfam_to_counts.py ($ sudo pip3 install matplotlib))  
 
@@ -156,3 +157,31 @@ Compare S4  |  OK   |   X   |  OK   |  OK   |  OK   | Error: 1 - Sequence is OK
 Compare S5  |   X   |   X   |  OK   |  OK   |  OK   | Error: 2 - Sequence deleted
 
 So too long and too short sequence are deleted. Notice, that even if columns are in different order result will be the same.
+
+
+## rename_sequences.py
+
+Adds prefix to each sequence name - helpful if you want to later merge more fasta files into one.
+
+Flag | Description                                       | Default
+---- | ------------------------------------------------- | ----
+-F   | Directory to the file                             | 
+-R   | Recursive search - Directory to folder with files | 
+
+Example usage:  
+`python3 rename_sequences.py -F directory/filename.txt`  
+or  
+`python3 rename_sequences.py -R ./directory/to/folder`  
+
+
+## merge_into_one_file.py
+
+Merge fasta files. Note that all files you want to merge must be in one folder.
+
+Flag | Description                    | Default
+---- | -------------------------------| ----
+-R   | Directory to folder with files | 
+-O   | Name of the output file        | merged
+
+Example usage:  
+`python3 merge_into_one_file.py -R ./directory/to/folder -O output_filename`
