@@ -4,7 +4,7 @@ If original scripts (in master folder) will not work, try to copy paste scripts 
 
 
 ## Dependencies
-Program tested on Linux Ubuntu 18.04.2. Should be also working on Windows however it's not recommended.
+Program tested on Linux Ubuntu 18.04.2.
 
 Those scripts need [Python3](https://www.python.org/) and are using those libraries (they should be built-in):
 * argparse
